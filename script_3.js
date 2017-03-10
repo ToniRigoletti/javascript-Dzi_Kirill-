@@ -1,8 +1,11 @@
 function getTime(n) {
 	let h,m,s;
+	/*
 	h = n/3600;	
 	m = (h - Math.floor(h))*60;
 	s = (m - Math.floor(m))*60;
+	*/
+	h = 
 	if (h < 10) {h="0"+Math.floor(h);}
 	else h = Math.floor(h);
 	if (m < 10) {m="0"+Math.floor(m);}
@@ -13,7 +16,7 @@ function getTime(n) {
 	return h+":"+m+":"+s;
 }
 console.log(getTime(40315));
-
+/*
 function assert(expression, message) {
 	if(expression) { 
 		console.log("+", message);
@@ -38,3 +41,4 @@ function runTask3() {
 }
 
 runTask3();
+*/

@@ -4,12 +4,13 @@ function getMinutes(n) {
     b = m - Math.floor(m);
     
         b = b*60;
-        return n;
+        return Math.floor(b);
     
     
 
 	
 }
+
 
 function assert(expression, message) {
 	if(expression) {
